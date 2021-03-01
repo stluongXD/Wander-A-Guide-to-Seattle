@@ -1,0 +1,75 @@
+#background-div {
+    position: relative;
+}
+
+#background-img {
+    width: 100%;
+    /* position: absolute; */
+}
+
+#bottom-left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem;
+    color: white;
+}
+
+#bottom-left > h1 {
+    font-weight: 700;
+    font-family: "Sora";
+}
+
+#about-text {
+    background-color: #D8DCDE;
+    padding: 4em;
+}
+
+#about-text > p {
+    padding: 1em;
+    padding-bottom: 2.5em;
+    font-size: larger;
+    font-family: "Open Sans";
+} 
+
+#creators {
+    margin-top: 3.5rem;
+    margin-left: 2.5rem;
+}
+
+#creators > h2 {
+    font-weight: 700;
+    padding-bottom: 2rem;
+    font-family: "Sora";
+}
+
+
+.email, .github, .linkedin {
+    display: flex;
+    align-items: center;
+}
+
+/* .mail-icon, .github-icon, .linkedin-icon {
+    margin-right: 10px;
+    margin-bottom: 2px;
+} */
+
+#creators-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Steven, #Damita, #Phung, #Chloe {
+    align-items: center;
+    text-align: center;
+}
+
+#creators {
+    margin-bottom: 8rem;
+}
+
+.name {
+    font-family: "Bebas Neue";
+}
+
+
+

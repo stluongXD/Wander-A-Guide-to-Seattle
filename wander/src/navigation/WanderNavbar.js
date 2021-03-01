@@ -18,7 +18,7 @@ export default class WanderNavbar extends Component {
     return (
       <Navbar className='sticky-top' bg="light" expand='lg'>
         <Navbar.Brand className='mx-auto' href="/Home">
-          Wander a guide to exploring seattle
+          Wander: A Guide to Exploring Seattle
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
