@@ -18,7 +18,7 @@ body, html {
     z-index: 1;
     position: absolute;
     background-color: white;
-    height: 500%;
+    height: 400%;
     width: 75%;
     top: 60%;
     left: 12.5%;
@@ -181,10 +181,11 @@ p {
 .rec {
     background-color: #F1EBE4;
     border-bottom: 6px solid #B26317;
-    margin-top: 50px;
     height: 350px;
-    width: 1400px;
+    width: 1450px;
+    margin-top: 50px;
     margin-left: -200px;
+    margin-bottom: 30px;
     padding: 20px 60px;
     box-sizing: border-box;
 }
@@ -193,5 +194,30 @@ h2 {
     font-family: "Sora";
     font-size: 38px;
     font-weight: 600;
+}
 
+#p4 {
+    width: 90%;
+}
+
+.flex-container-t {
+    display: flex;
+    margin-top: 50px;
+}
+
+#bottom {
+    border: 2px solid #333A3E;
+    width: 75%;
+    margin-top: 50px;
+}
+
+.details {
+    background-color: #F1EBE4;
+    border-bottom: 6px solid #B26317;
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px 60px;
+    box-sizing: border-box;
 }
