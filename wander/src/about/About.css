@@ -77,19 +77,12 @@
 }
 
 #bottom-left > h1 {
-    font-weight: 700;
-    font-family: "Sora";
     font-size: 3rem;
 }
 
 #creators-details {
     display: flex;
     justify-content: space-evenly;
-}
-
-.email, .github, .linkedin {
-    display: flex;
-    align-items: center;
 }
 
 /* .mail-icon, .github-icon, .linkedin-icon {
