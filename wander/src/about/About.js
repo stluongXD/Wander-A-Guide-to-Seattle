@@ -52,7 +52,7 @@ export default class About extends Component {
                   <IconButton variant="link" href="https://github.com/stluongXD">
                     <GitHubIcon className="github-icon" />
                   </IconButton>
-                  <a href="https://github.com/stluongXD">https://github.com/stluongXD</a>
+                  <a target="_blank" href="https://github.com/stluongXD">github.com/stluongXD</a>
                 </div>
                 {/* <div className="linkedin">
                 <LinkedInIcon className="linkedin-icon" />
@@ -74,10 +74,10 @@ export default class About extends Component {
                   <a href="mailto:dgomez23@uw.edu">dgomez23@uw.edu</a>
                 </div>
                 <div className="github">
-                  <IconButton variant="link" href="https://github.com/stluongXD">
+                  <IconButton variant="link" href="https://github.com/damitagomez23">
                     <GitHubIcon className="github-icon" />
                   </IconButton>
-                  <a href="https://github.com/stluongXD">https://github.com/stluongXD</a>
+                  <a target="_blank" href="https://github.com/damitagomez23">github.com/damitagomez23</a>
                 </div>
                 {/* <div className="linkedin">
                 <LinkedInIcon className="linkedin-icon" />
@@ -103,7 +103,7 @@ export default class About extends Component {
                   <IconButton variant="link" href="https://github.com/phung-phu">
                     <GitHubIcon className="github-icon" />
                   </IconButton>
-                  <a href="https://github.com/phung-phu">https://github.com/phung-phu</a>
+                  <a target="_blank" href="https://github.com/phung-phu">github.com/phung-phu</a>
                 </div>
                 {/* <div className="linkedin">
                 <LinkedInIcon className="linkedin-icon" />
@@ -127,7 +127,7 @@ export default class About extends Component {
                   <IconButton variant="link" href="https://github.com/chloet127">
                     <GitHubIcon className="github-icon" />
                   </IconButton>
-                  <a href="https://github.com/chloet127">https://github.com/chloet127</a>
+                  <a target="_blank" href="https://github.com/chloet127">github.com/chloet127</a>
                 </div>
                 {/* <div className="linkedin">
                 <LinkedInIcon className="linkedin-icon" />

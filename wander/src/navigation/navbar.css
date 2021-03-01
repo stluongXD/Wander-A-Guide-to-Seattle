@@ -25,5 +25,17 @@ a {
   .navbar-brand {
     font-size: 1.15em;
   }
+}
 
+.mx-auto-long {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .mx-auto-short{
+    display: none;
+  }
+  .mx-auto-long{
+    display: inline;
+  }
 }
