@@ -38,7 +38,7 @@ export default class About extends Component {
             <div id="Steven">
               <img src={Steven} alt="Steven Luong" />
               <h3 className="name">Steven Luong</h3>
-              <p className="role-title">Web Developer</p>
+              <p className="role-title">Web Developer, Researcher</p>
               <div className="icons">
 
                 <div className="email">
@@ -65,7 +65,7 @@ export default class About extends Component {
             <div id="Damita">
               <img src={Damita} alt="Damita Gomez" />
               <h3 className="name">Damita Gomez</h3>
-              <p className="role-title">Web Developer</p>
+              <p className="role-title">Web Developer, Researcher</p>
               <div className="icons">
                 <div className="email">
                   <IconButton variant="link" href="mailto:dgomez23@uw.edu">
@@ -90,7 +90,7 @@ export default class About extends Component {
             <div id="Phung">
               <img src={Phung} alt="Phung Phu" />
               <h3 className="name">Phung Phu</h3>
-              <p className="role-title">Web Developer</p>
+              <p className="role-title">Web Developer, Researcher</p>
               <div className="icons">
                 <div className="email">
                   <IconButton variant="link" href="mailto:phungphu@uw.edu">
@@ -115,7 +115,7 @@ export default class About extends Component {
             <div id="Chloe">
               <img src={Chloe} alt="Chloe Tsien" />
               <h3 className="name">Chloe Tsien</h3>
-              <p className="role-title">Web Developer</p>
+              <p className="role-title">Web Developer, Designer, Researcher</p>
               <div className="icons">
                 <div className="email">
                   <IconButton variant="link" href="mailto:ctsien@uw.edu">

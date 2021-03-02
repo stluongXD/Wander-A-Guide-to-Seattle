@@ -8,15 +8,15 @@
 
 #bottom-left {
     position: absolute;
-    bottom: .5rem;
-    left: .5rem;
+    bottom: 20px;
+    left: 40px;
     color: white;
 }
 
 #bottom-left > h1 {
     font-weight: 700;
     font-family: "Sora";
-    font-size: 1.5rem;
+    font-size: xxx-large;
 }
 
 #about-text {
@@ -60,7 +60,7 @@
 }
 
 #creators {
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 .name {
@@ -69,17 +69,6 @@
 }
 
 @media (min-width: 1000px) {
-#bottom-left {
-    position: absolute;
-    bottom: 1.5rem;
-    left: 2.5rem;
-    color: white;
-}
-
-#bottom-left > h1 {
-    font-size: 3rem;
-}
-
 #creators-details {
     display: flex;
     justify-content: space-evenly;
