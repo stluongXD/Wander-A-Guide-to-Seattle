@@ -258,7 +258,7 @@ ul {
 li {
     margin-bottom: 30px;
     font-family: "Sora";
-    font-size: 22px;
+    font-size: 18px;
     line-height: 120%;
 }
 
@@ -277,4 +277,12 @@ li {
 .fa-phone {
     margin-left: 5px;
     margin-right: 20px;
+}
+
+#det-title {
+    border: 2px solid #333A3E;
+    width: 70%;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-left: 0;
 }
