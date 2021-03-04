@@ -1,18 +1,22 @@
 [
     {
         "name": "Fortune Garden",
-        "blurb": "short blurb about restaurant here"
-    },
-    {
-        "name": "Phnom Penh",
-        "blurb": "short blurb about restaurant here"
+        "blurb": "Just across the street from Seattle’s Hing Hay Park in the International District lies a quaint Chinese restaurant called Fortune Garden. Like so many other businesses in the International District, Fortune Garden is a restaurant owned by Southern Chinese immigrants. Specifically, this restaurant is owned by a fellow University of Washington student Yongkang Zhou and his family.",
+        "image": "fortune-garden-outside.jpg"
     },
     {
         "name": "Hood's Famous Bakeshop",
-        "blurb": "short blurb about restaurant here"
+        "blurb": "What started off as a passion project in 2013 turned into a full time business for husband and wife, Geo Quibuyen and Chera Amlag. With only a few Filipino restaurants here and there in Seattle, Chera and Geo wanted to utilize food as a way to bring people together and educate people about Filipino cuisine and culture, so they began doing pop ups serving Filipino food.",
+        "image": "hood.jpg"
+    },
+    {
+        "name": "Phnom Penh",
+        "blurb": "Phnom Penh Noodle House is a Cambodian restaurant and beloved establishment in Seattle’s Chinatown-International District (CID). It was founded in 1987 by Sam Ung and is currently operated by his three daughters: Dawn, Diane, and Darlene. The sisters grew up in the CID and have fond memories of their childhood in the restaurant and elsewhere in the area. The CID is their home, and the restaurant they run stands as a testament to their family’s resilience and love for food.",
+        "image": "phnom.png"
     },
     {
         "name": "Young Tea",
-        "blurb": "short blurb about restaurant here"
+        "blurb": "In recent years, bubble tea has skyrocketed in popularity, with boba shops popping up on street corners all over Seattle. There’s a lot to love about sweetened milk tea with chewy tapioca pearls dotting the bottom of the cup. It’s quickly become a beloved classic, and everybody’s always clamoring for their next boba fix. Nestled in the heart of Seattle’s International District, Young Tea is one provider of said boba fix, though for owner Caroline Lee, bubble tea is more than just a popular trend - it’s a way to introduce the benefits of tea to her customers while keeping it deliciously interesting.",
+        "image": "young.png"
     }
 ]

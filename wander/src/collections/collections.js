@@ -31,14 +31,13 @@ export default class Collections extends Component {
         let rowSize = 2; // number of cards I want on one row
         let result = [];
         for (let i = 0; i < RESTAURANT_DATA.length; i += rowSize) {
-
             let upperbound = Math.min(RESTAURANT_DATA.length, i + rowSize);
             let rowElements = [];
             for (let j = i; j < upperbound; j++) {
                 let current = RESTAURANT_DATA[j];
                 rowElements.push(
                     <Col>
-                        <RestaurantCard name = {current.name} blurb = {current.blurb} key = {current.name}/>
+                        <RestaurantCard name = {current.name} blurb = {current.blurb} image = {current.image}/>
                     </Col>
                 )
             }
