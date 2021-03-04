@@ -29,7 +29,6 @@ export default class WanderNavbar extends Component {
             <Nav.Link href="/" className="ml-auto">home</Nav.Link>
             <Nav.Link href="/About" className="ml-auto">about</Nav.Link>
             <Nav.Link href="/Browse" className="ml-auto">browse</Nav.Link>
-            <Nav.Link href="/Account" className="ml-auto">my account</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
