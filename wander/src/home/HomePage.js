@@ -1,13 +1,10 @@
 import React from "react";
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import "./home.css";
 import header from './imgs/home-page-header.png';
 import foodSample from './imgs/phnomPenhFood.png';
 
 function Home() {
-
-
-    
         return (
             <main className="main-content">
                 <section className ="page-header">
@@ -52,8 +49,7 @@ function Home() {
                         <div className="mission-button">
                             <h2>our mission: to create meaningful experiences by helping you learn about
                                 the best places around</h2>
-                            {/*<button className="button"><Link to="/about">Learn More</Link></button>*/}
-                            <button className="button">Learn More</button>
+                            <a href = "/About"><button className="button">Learn More</button></a>
                         </div>
                         <p>write a nice mission statement here! I'm a paragraph. Click here to add
                             your own text and edit me. It’s easy. Just click “Edit Text” or double
