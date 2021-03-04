@@ -1,16 +1,28 @@
 // Style
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+
 
 // Club Components
 import WanderNavbar from './navigation/WanderNavbar.js';
 import Collections from './collections/collections.js';
+import About from './about/About.js';
 
 function App() {
   return (
     <div>
-      <WanderNavbar/>
-      <Collections/>
+      <Router>
+        <WanderNavbar />
+        <Switch>
+          <Route exact path="/About">
+          <About />
+          </Route>
+          <Route exact path="/Browse">
+            <Collections/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
