@@ -1,4 +1,6 @@
 // Style
+import React from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
@@ -8,6 +10,7 @@ import './App.css';
 import WanderNavbar from './navigation/WanderNavbar.js';
 import Collections from './collections/collections.js';
 import About from './about/About.js';
+import Home from './home/HomePage';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/Browse">
             <Collections/>
+          </Route>
+          <Route exact path="/">
+            <Home />
           </Route>
         </Switch>
       </Router>
