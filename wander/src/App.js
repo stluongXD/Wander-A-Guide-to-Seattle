@@ -4,10 +4,14 @@ import './App.css';
 
 // Club Components
 import WanderNavbar from './navigation/WanderNavbar.js';
+import Collections from './collections/collections.js';
 
 function App() {
   return (
-    <WanderNavbar/>
+    <div>
+      <WanderNavbar/>
+      <Collections/>
+    </div>
   );
 }
 
