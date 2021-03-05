@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 const containerStyle = {
     height: '100%',
-    width: '50%',
+    width: '100%',
     float: 'right'
 };
 
@@ -20,7 +20,9 @@ export class Map extends Component {
                     mapContainerStyle={containerStyle}
                     center={center}
                     zoom={18}
-                ></GoogleMap>
+                >
+                    <Marker position={{ lat: 47.597399424712535, lng: -122.32592148264524 }} />
+                </GoogleMap>
             </LoadScript>
         );
     }

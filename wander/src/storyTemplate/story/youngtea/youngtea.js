@@ -1,24 +1,27 @@
 import React, { Component } from "react";
 import "./style.css";
 import {Map} from "./map.js";
+import drinks from "./img/drinks.jpg"
+import drinks2 from "./img/drinks2.jpg";
+import drinks3 from "./img/drinks3.jpg";
 
 export class YoungTea extends Component {
 
     render() {
         return (
             <div>
-                <div class="header-img"></div>
-                <div class="main">
-                    <h1>Young Tea</h1>
-                    <h3>bubble tea done right - with all natural and high quality ingredients</h3>
+                <div class="header-img-yt"></div>
+                <div class="main-yt">
+                    <h1 class="h1-yt">Young Tea</h1>
+                    <h3 class="h3-yt">bubble tea done right - with all natural and high quality ingredients</h3>
 
-                    <h4>by Chloe Tsien ・ 3-1-2021</h4>
-                    <hr id="title" />
+                    <h4 class="h4-yt">by Chloe Tsien ・ 3-1-2021</h4>
+                    <hr id="title-yt" />
 
-                    <div class="flex-container-m">
-                        <div class="flex-child-m">
+                    <div class="flex-container-m-yt">
+                        <div class="flex-child-m-yt">
                             <p>
-                                <span id="dropcap">I</span>
+                                <span id="dropcap-yt">I</span>
                                 n recent years, bubble tea has skyrocketed in popularity, 
                                 with boba shops popping up on street corners all over Seattle. 
                                 There’s a lot to love about sweetened milk tea with chewy tapioca 
@@ -31,28 +34,28 @@ export class YoungTea extends Component {
                             </p>
                         </div>
 
-                        <div class="flex-child-m">
-                            <div class="q1-wrap">
-                                <div class="q1-back"></div>
-                                <div class="flex-container-q">
-                                    <div class="flex-child-q" id="q1-vert"></div>
-                                    <div class="flex-child-q">
-                                        <span id="q1-top">“</span>
+                        <div class="flex-child-m-yt">
+                            <div class="q1-wrap-yt">
+                                <div class="q1-back-yt"></div>
+                                <div class="flex-container-q-yt">
+                                    <div class="flex-child-q-yt" id="q1-vert-yt"></div>
+                                    <div class="flex-child-q-yt">
+                                        <span id="q1-top-yt">“</span>
                                     </div>
-                                    <div class="flex-child-q">
-                                        <p class="q-body">
-                                        everyone should know what healthy bubble tea tastes like, 
-                                        made with real tea leaves sourced right from taiwan
+                                    <div class="flex-child-q-yt">
+                                        <p class="q-body-yt">
+                                            everyone should know what healthy bubble tea tastes like, 
+                                            made with real tea leaves sourced right from taiwan
                                         </p>
                                     </div>
-                                    <div class="flex-child-q">
-                                        <span id="q1-bot">”</span>
+                                    <div class="flex-child-q-yt">
+                                        <span id="q1-bot-yt">”</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="flex-child-m" id="p2">
+                        <div class="flex-child-m-yt" id="p2-yt">
                             <p>
                                 Running a bubble tea shop was never Lee’s original plan, 
                                 but it was a vocation that she quickly fell in love with. 
@@ -66,15 +69,15 @@ export class YoungTea extends Component {
                             </p>
                         </div>
 
-                        <div class="flex-child-m">
-                            <div class="flex-container-p">
-                                <div class="flex-child-p">
-                                    <img src="img/drinks2.jpg" class="mid-img" />
+                        <div class="flex-child-m-yt">
+                            <div class="flex-container-p-yt">
+                                <div class="flex-child-p-yt">
+                                    <img src={drinks2} class="mid-img-yt" />
                                 </div>
-                                <div class="flex-child-p" id="q2-wrap">
-                                    <div class="q2-back"></div>
-                                    <div class="q2">
-                                        <p class="q-body" id="q2-body">
+                                <div class="flex-child-p-yt" id="q2-wrap-yt">
+                                    <div class="q2-back-yt"></div>
+                                    <div class="q2-yt">
+                                        <p class="q-body-yt" id="q2-body-yt">
                                             when it’s brewed right, tea can be a treasure trove of health benefits
                                         </p>
                                     </div>
@@ -82,7 +85,7 @@ export class YoungTea extends Component {
                             </div>
                         </div>
 
-                        <div class="flex-child-m">
+                        <div class="flex-child-m-yt">
                             <p>
                                 All of Young Tea’s recipes are thoroughly researched and personally handcrafted by Lee 
                                 herself. It’s important that she knows what she’s offering to her customers. Their teas 
@@ -102,9 +105,9 @@ export class YoungTea extends Component {
                             </p>
                         </div>
                         
-                        <div class="flex-child-m">
-                            <div class="rec">
-                                <h2>what should you order?</h2>
+                        <div class="flex-child-m-yt">
+                            <div class="rec-yt">
+                                <h2 class="h2-yt">what should you order?</h2>
                                 <p>
                                     Iron Buddha Milk Tea is one of their signature drinks, 
                                     and for good reason - Young Tea is one of the only boba 
@@ -120,10 +123,10 @@ export class YoungTea extends Component {
                             </div>
                         </div>
                         
-                        <div class="flex-child-m">
-                            <div class="flex-container-t">
-                                <div class="flex-child-t">
-                                    <p id="p4">
+                        <div class="flex-child-m-yt">
+                            <div class="flex-container-t-yt">
+                                <div class="flex-child-t-yt">
+                                    <p id="p4-yt">
                                         Lee’s dedication to helping her customer base has earned Young Tea 
                                         a large following of loyal customers. With people from all over the 
                                         Greater Seattle Area flocking to her store, she tries hard to provide 
@@ -135,31 +138,32 @@ export class YoungTea extends Component {
                                         bubble tea, coming to the Eastside soon in 2021.
                                     </p>
                                 </div>
-                                <div class="flex-child-t">
-                                    <img src="img/drinks3.jpg" />
+                                <div class="flex-child-t-yt">
+                                    <img src={drinks3} />
                                 </div>
                             </div>
                         </div>
 
-                        <hr id="bottom" />
+                        <hr id="bottom-yt" />
 
-                        <div class="flex-child-m">
-                            <div id="details">
+                        <div class="flex-child-m-yt">
+                            <div id="details-yt">
                                 <div>
-                                    <div class="info">
-                                        <h2>visit them now!</h2>
-                                        <hr id="det-title" />
-                                        <ul>
-                                            <li id="addr"><i class="fa fa-map-marker fa-3x icon" aria-hidden="true"></i>609 S Weller St, Seattle, WA 98104</li>
-                                            <li><i class="fa fa-phone fa-3x icon" aria-hidden="true"></i> <a href="tel:206-682-6688">(206) 682-6688</a></li>
-                                            <li><i class="fa fa-window-maximize fa-3x icon" aria-hidden="true"></i> <a href="https://www.youngteaglobal.com/">https://www.youngteaglobal.com/</a></li>
+                                    <div class="info-yt">
+                                        <h2 class="h2-yt">visit them now!</h2>
+                                        <hr id="det-title-yt" />
+                                        <ul class="ul-yt">
+                                            <li class="li-yt" id="addr-yt"><i class="fa fa-map-marker fa-3x icon-yt" aria-hidden="true"></i>609 S Weller St, Seattle, WA 98104</li>
+                                            <li class="li-yt"><i class="fa fa-phone fa-3x icon-yt" aria-hidden="true"></i> <a href="tel:206-682-6688">(206) 682-6688</a></li>
+                                            <li class="li-yt"><i class="fa fa-window-maximize fa-3x icon-yt" aria-hidden="true"></i> <a href="https://www.youngteaglobal.com/">https://www.youngteaglobal.com/</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div id="map"><Map/></div>
+                                <div id="map">
+                                    <Map/>
+                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

@@ -3,11 +3,9 @@ body, html {
     background-color: #E9EBEC;
 }
 
-.header-img {
-    /*
-    background-image: url('img/drinks.webp');
-    */
-    height: 75%;
+.header-img-yt {
+    background-image: url("./img/drinks.jpg");
+    height: 100vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +14,7 @@ body, html {
     z-index: 0;
 }
 
-.main {
+.main-yt {
     z-index: 1;
     position: absolute;
     background-color: white;
@@ -28,26 +26,26 @@ body, html {
     padding: 0px 120px;
     box-sizing: border-box;
     color: #333A3E; 
+    margin-top: 100px;
 }
 
-h1 {
+.h1-yt {
     font-size: 144px;
     font-family: "Bebas Neue";
 }
 
-h3 {
+.h3-yt {
     padding-right: 50%;
     font-size: 24px;
-    margin-top: -130px;
     font-family: "Sora";
 }
 
-h4 {
+.h4-yt {
     font-family: "Open Sans";
     font-style: italic;
 }
 
-#title {
+#title-yt {
     border: 2px solid #333A3E;
     width: 50%;
     margin-top: -15px;
@@ -55,12 +53,12 @@ h4 {
     margin-left: 0;
 }
 
-.flex-container-m {
+.flex-container-m-yt {
     display: flex;
     flex-direction: column;
 }
 
-#dropcap {
+#dropcap-yt {
     float: left;
     line-height: 120%;
     width: .5em;
@@ -76,12 +74,12 @@ p {
     line-height: 2; 
 }
 
-.q1-wrap {
+.q1-wrap-yt {
     z-index: 0;
     position: relative;
 }
 
-.q1-back {
+.q1-back-yt {
     z-index: -1;
     position: absolute;
     background-color: #F1EBE4;
@@ -92,13 +90,13 @@ p {
 }
 
 
-#q1-vert {
+#q1-vert-yt {
     border-left: 6px solid #B26317;
     height: 140px;
     margin-top: 50px;
 }
 
-.flex-container-q {
+.flex-container-q-yt {
     display: flex;
     width: 90%;
     margin-left: 60px;
@@ -106,20 +104,21 @@ p {
     position: relative;
 }
 
-.q1 {
+.q1-yt {
     z-index: 1;
     position: absolute;
     margin-left: 60px;
 }
 
-.q-body {
+.q-body-yt {
     font-family: "Sora";
     font-weight: 600;
     font-size: 30px;
     line-height: 1.4;
+    margin-top: 50px;
 }
 
-#q1-top {
+#q1-top-yt {
     font-size: 1000%;
     font-family:"Sora";
     float: left;
@@ -127,7 +126,7 @@ p {
     margin-left: 30px;
 }
 
-#q1-bot {
+#q1-bot-yt {
     font-size: 1000%;
     font-family:"Sora";
     float: right;
@@ -136,34 +135,35 @@ p {
     margin-top: 100px;
 }
 
-#p2 {
+#p2-yt {
     margin-top: -50px;
 }
 
-.flex-container-p {
+.flex-container-p-yt {
     display: flex;
     margin-top: 40px;
     flex-direction: row;
     margin-bottom: 30px;
 }
 
-.mid-img {
-    width: 180%;
-    margin-left: -200px;
+.mid-img-yt {
+    width: 100%;
+    height: 100%;
 }
 
-#q2-wrap {
+#q2-wrap-yt {
     z-index: 0;
     position: relative;
+    margin-right: 100px;
 }
 
-#q2-body {
+#q2-body-yt {
     text-align: right;
     padding-left: 30%;
     margin-right: 10%;
 }
 
-.q2-back {
+.q2-back-yt {
     z-index: -1;
     position: absolute;
     background-color: #F1EBE4;
@@ -174,45 +174,45 @@ p {
     margin-top: 80px;
 }
 
-.q2 {
+.q2-yt {
     z-index: 1;
     border-right: 6px solid #B26317;
 }
 
-.rec {
+.rec-yt {
     background-color: #F1EBE4;
     border-bottom: 6px solid #B26317;
-    height: 350px;
-    width: 1450px;
+    height: 50%;
+    width: 135%;
     margin-top: 50px;
     margin-left: -200px;
     margin-bottom: 30px;
-    padding: 20px 60px;
+    padding: 50px 60px;
     box-sizing: border-box;
 }
 
-h2 {
+.h2-yt {
     font-family: "Sora";
     font-size: 38px;
     font-weight: 600;
 }
 
-#p4 {
+#p4-yt {
     width: 90%;
 }
 
-.flex-container-t {
+.flex-container-t-yt {
     display: flex;
     margin-top: 50px;
 }
 
-#bottom {
+#bottom-yt {
     border: 2px solid #333A3E;
     width: 75%;
     margin-top: 50px;
 }
 
-#details {
+#details-yt {
     background-color: #F1EBE4;
     border-bottom: 6px solid #B26317;
     height: 600px;
@@ -225,19 +225,17 @@ h2 {
     justify-content: space-between;
 }
 
-#map {
-    height: 100%;
-    width: 50%;
+#map-yt {
     float: right;
 }
 
-.info {
+.info-yt {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;    
 }
 
-.flex-child-s {
+.flex-child-s-yt {
     margin-left: 25px;
 }
 
@@ -253,11 +251,11 @@ a:hover {
     color: #B26317;
 }
 
-ul {
+.ul-yt {
     list-style: none;
 }
 
-li {
+.li-yt {
     margin-bottom: 30px;
     font-family: "Sora";
     font-size: 18px;
@@ -265,11 +263,11 @@ li {
     text-align: left;
 }
 
-#addr {
+#addr-yt {
     text-align-last: center;
 }
 
-.icon {
+.icon-yt {
     position: relative;
     top: 15px;
     margin-right: 10px;
@@ -277,7 +275,7 @@ li {
 }
 
 .fa-map-marker {
-    margin-left: 10px;
+    margin-left: -10px;
     margin-right: 30px;
 }
 
@@ -286,10 +284,10 @@ li {
     margin-right: 20px;
 }
 
-#det-title {
+#det-title-yt {
     border: 2px solid #333A3E;
     width: 70%;
-    margin-top: -25px;
+    margin-top: -5px;
     margin-bottom: 30px;
     margin-left: 0;
 }
