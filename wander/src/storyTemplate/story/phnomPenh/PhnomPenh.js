@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 // import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
-import "../style.css";
 import "./phnomPenh.css";
 import mapImage from './img/phnomPenhMap.png';
 import sisters from './img/sisters.png'

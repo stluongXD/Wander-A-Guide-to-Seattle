@@ -35,7 +35,7 @@ export default class RestaurantCard extends Component {
                 <Card.Body>
                     <Card.Title>{this.props.name}</Card.Title>
                     <Card.Text>{this.props.blurb}</Card.Text>
-                    <Button variant="primary">Read More</Button>
+                    <a href = {this.props.storyLink}><Button variant="primary">Read More</Button></a>
                 </Card.Body>
             </Card>
         )

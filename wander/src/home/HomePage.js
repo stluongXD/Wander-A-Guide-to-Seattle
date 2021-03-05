@@ -2,7 +2,6 @@ import React from "react";
 import "./home.css";
 import header from './imgs/home-page-header.png';
 import foodSample from './imgs/phnomPenhFood.png';
-import { HashLink } from 'react-router-hash-link';
 
 function Home() {
         return (
@@ -47,7 +46,7 @@ function Home() {
                             perseverance.
                         </p>
                         <br />
-                        <button className="button"><HashLink id="todays-story" to="/Story/PhnomPenh#top">Read More</HashLink></button>
+                        <a href= "/Story/PhnomPenh"><button className="button">Read More</button></a>
                     </div>
                 </section>
                 <section className="message mission-statement">
@@ -57,11 +56,14 @@ function Home() {
                             <br />
                             <a href="/About"><button className="button">Learn More</button></a>
                         </div>
-                        <p>write a nice mission statement here! I'm a paragraph. Click here to add
-                            your own text and edit me. It’s easy. Just click “Edit Text” or double
-                            click me to add your own content and make changes to the font. I’m a great
-                            place for you to tell a story and let your users know a little more about you.
-                            this is open sans!</p>
+                        <p>Wander: A Guide to Exploring Seattle is a capstone project developed to
+                            use the power of food to tell the story around Seattle’s International
+                            District. As land prices rise and gentrification becomes more prominant
+                            in areas around Seattle, locals are more likely to be priced out of the
+                            communities that have supported them for many years. We hope that users
+                            of this guide will be inspired to make a conscious effort to learn more
+                            about the history of the International District in an effort to preserve
+                            and protect our community.</p>
                 </section>
                 <section className="page-footer">
                         <span>WANDER a guide to exploring seattle</span>

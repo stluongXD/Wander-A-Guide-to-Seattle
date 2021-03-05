@@ -1,19 +1,9 @@
 import React, { Component } from "react";
 import "./style.css";
+import {Map} from "./map.js";
 
-export class Template extends Component {
-    initMap() {
-        const loc = { lat: 47.597399424712535, lng: -122.32592148264524 };
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 18,
-          center: loc,
-        });
-        const marker = new google.maps.Marker({
-          position: loc,
-          map: map,
-        });
-    }
-    
+export class YoungTea extends Component {
+
     render() {
         return (
             <div>
@@ -165,13 +155,8 @@ export class Template extends Component {
                                             <li><i class="fa fa-window-maximize fa-3x icon" aria-hidden="true"></i> <a href="https://www.youngteaglobal.com/">https://www.youngteaglobal.com/</a></li>
                                         </ul>
                                     </div>
-                                    
                                 </div>
-                                <div id="map"></div>
-                                <script
-                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIrDW655aBEFlkq8IlN1E07DWhIibDz2k&callback=initMap&libraries=&v=weekly"
-                                async
-                                ></script>
+                                <div id="map"><Map/></div>
                             </div>
                         </div>
 

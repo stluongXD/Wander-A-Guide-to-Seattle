@@ -37,7 +37,7 @@ export default class Collections extends Component {
                 let current = RESTAURANT_DATA[j];
                 rowElements.push(
                     <Col>
-                        <RestaurantCard name = {current.name} blurb = {current.blurb} image = {current.image}/>
+                        <RestaurantCard name = {current.name} blurb = {current.blurb} image = {current.image} storyLink= {current.href}/>
                     </Col>
                 )
             }
