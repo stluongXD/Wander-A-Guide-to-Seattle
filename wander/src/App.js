@@ -10,7 +10,8 @@ import './App.css';
 import WanderNavbar from './navigation/WanderNavbar.js';
 import Collections from './collections/collections.js';
 import About from './about/About.js';
-import Home from './home/HomePage';
+import {PhnomPenh} from './storyTemplate/phnomPenh/PhnomPenh.js'
+import Home from './home/HomePage.js';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/Browse">
             <Collections/>
           </Route>
+          <Route path="/Story/PhnomPenh" component={PhnomPenh} />
           <Route exact path="/">
             <Home />
           </Route>
