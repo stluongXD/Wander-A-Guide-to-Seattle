@@ -4,7 +4,9 @@ body, html {
 }
 
 .header-img {
+    /*
     background-image: url('img/drinks.webp');
+    */
     height: 75%;
     width: 100%;
     background-position: center;
