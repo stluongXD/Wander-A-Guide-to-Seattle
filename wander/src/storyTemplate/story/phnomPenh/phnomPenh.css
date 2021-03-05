@@ -1,47 +1,37 @@
-body, html {
-    height: 100%;
-    background-color: #E9EBEC;
-}
-
-.header-img {
-    /*
-    background-image: url('img/drinks.webp');
-    */
-    height: 75%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-}
-
-.main {
+.phnom-penh-story-main {
     z-index: 1;
     position: absolute;
-    background-color: white;
-    height: 400%;
+    background-color: #E9EBEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 75%;
-    top: 60%;
+    top: 10%;
     left: 12.5%;
-    border-top: 10px solid #B26317;
     padding: 0px 120px;
     box-sizing: border-box;
     color: #333A3E; 
 }
 
-h1 {
-    font-size: 144px;
+#phnom-penh-story {
+    background-color: white;
+    width: 130%;
+    padding: 4em;
+    border-top: 10px solid #B26317;
+}
+
+#phnom-penh-story h1 {
+    font-size: 100px;
     font-family: "Bebas Neue";
 }
 
-h3 {
+#phnom-penh-story h3 {
     padding-right: 50%;
     font-size: 24px;
     font-family: "Sora";
 }
 
-h4 {
+#phnom-penh-story h4 {
     font-family: "Open Sans";
     font-style: italic;
 }
@@ -54,12 +44,12 @@ h4 {
     margin-left: 0;
 }
 
-.flex-container-m {
+.phnom-penh-flex-container-m {
     display: flex;
     flex-direction: column;
 }
 
-#dropcap {
+#phnom-penh-dropcap {
     float: left;
     line-height: 120%;
     width: .5em;
@@ -69,18 +59,25 @@ h4 {
     color: #B26317;
 }
 
-p {
+.phnom-penh-parag {
     font-family: "Open Sans";
     font-size: 18px;
     line-height: 2; 
 }
 
-.q1-wrap {
+.phnom-penh-q-body {
+    font-family: "Sora";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.phnom-penh-q1-wrap {
     z-index: 0;
     position: relative;
 }
 
-.q1-back {
+.phnom-penh-q1-back {
     z-index: -1;
     position: absolute;
     background-color: #F1EBE4;
@@ -90,14 +87,13 @@ p {
     margin-left: 90px;
 }
 
-
-#q1-vert {
+#phnom-penh-q1-vert {
     border-left: 6px solid #B26317;
     height: 140px;
     margin-top: 50px;
 }
 
-.flex-container-q {
+.phnom-penh-flex-container-q {
     display: flex;
     width: 90%;
     margin-left: 60px;
@@ -105,20 +101,13 @@ p {
     position: relative;
 }
 
-.q1 {
+.phnom-penh-q1 {
     z-index: 1;
     position: absolute;
     margin-left: 60px;
 }
 
-.q-body {
-    font-family: "Sora";
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 1.4;
-}
-
-#q1-top {
+#phnom-penh-q1-top {
     font-size: 1000%;
     font-family:"Sora";
     float: left;
@@ -126,7 +115,7 @@ p {
     margin-left: 30px;
 }
 
-#q1-bot {
+#phnom-penh-q1-bot {
     font-size: 1000%;
     font-family:"Sora";
     float: right;
@@ -135,34 +124,34 @@ p {
     margin-top: 100px;
 }
 
-#p2 {
+#phnom-penh-p2 {
     margin-top: -50px;
 }
 
-.flex-container-p {
+.phnom-penh-flex-container-p {
     display: flex;
     margin-top: 40px;
     flex-direction: row;
     margin-bottom: 30px;
 }
 
-.mid-img {
+.phnom-penh-mid-img {
     width: 180%;
     margin-left: -200px;
 }
 
-#q2-wrap {
+#phnom-penh-q2-wrap {
     z-index: 0;
     position: relative;
 }
 
-#q2-body {
+#phnom-penh-q2-body {
     text-align: right;
     padding-left: 30%;
     margin-right: 10%;
 }
 
-.q2-back {
+.phnom-penh-q2-back {
     z-index: -1;
     position: absolute;
     background-color: #F1EBE4;
@@ -173,12 +162,12 @@ p {
     margin-top: 80px;
 }
 
-.q2 {
+.phnom-penh-q2 {
     z-index: 1;
     border-right: 6px solid #B26317;
 }
 
-.rec {
+.phnom-penh-rec {
     background-color: #F1EBE4;
     border-bottom: 6px solid #B26317;
     height: 350px;
@@ -190,31 +179,30 @@ p {
     box-sizing: border-box;
 }
 
-h2 {
+.phnom-penh-info h2 {
     font-family: "Sora";
     font-size: 38px;
     font-weight: 600;
 }
 
-#p4 {
+.phnom-penh-p4 {
     width: 90%;
 }
 
-.flex-container-t {
+.phnom-penh-flex-container-t {
     display: flex;
     margin-top: 50px;
 }
 
-#bottom {
+#phnom-penh-bottom {
     border: 2px solid #333A3E;
     width: 75%;
     margin-top: 50px;
 }
 
-#details {
+#phnom-penh-details {
     background-color: #F1EBE4;
     border-bottom: 6px solid #B26317;
-    height: 600px;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -222,41 +210,33 @@ h2 {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-#map {
+#phnom-penh-map {
     height: 100%;
     width: 50%;
     float: right;
 }
 
-.info {
+.phnom-penh-info {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;    
 }
 
-.flex-child-s {
+.phnom-penh-flex-child-s {
     margin-left: 25px;
 }
 
-a:link {
-    color: #333A3E;
-}
-
-a:visited {
-    color: #333A3E;
-}
-
-a:hover {
-    color: #B26317;
-}
-
-ul {
+ul.phnom-penh-list {
     list-style: none;
+    padding: 0;
 }
 
-li {
+.phnom-penh-list li {
     margin-bottom: 30px;
     font-family: "Sora";
     font-size: 18px;
@@ -264,28 +244,28 @@ li {
     text-align: left;
 }
 
-#addr {
-    text-align-last: center;
+#phnom-penh-addr {
+    text-align-last: auto;
 }
 
-.icon {
+.phnom-penh-icon {
     position: relative;
     top: 15px;
     margin-right: 10px;
     fill: #333A3E;
 }
 
-.fa-map-marker {
+.phnom-penh-fa-map-marker {
     margin-left: 10px;
     margin-right: 30px;
 }
 
-.fa-phone {
+.phnom-penh-fa-phone {
     margin-left: 5px;
     margin-right: 20px;
 }
 
-#det-title {
+#phnom-penh-det-title {
     border: 2px solid #333A3E;
     width: 70%;
     margin-top: -25px;
@@ -293,61 +273,36 @@ li {
     margin-left: 0;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 10%;
-    background-color: transparent;
-    border-top: none;
+.phnom-penh-quotes {
+    margin-top: 4em;
 }
 
-#color-block {
-    background-color: white;
-    width: 130%;
-    padding: 4em;
-    border-top: 10px solid #B26317;
-}
-
-.quotes {
-    margin-top: 2em;
-}
-
-img {
+.phnom-penh-img {
     max-height: 350px;
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-.img-txt-content {
+.phnom-penh-img-txt-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1.5em;
 }
 
-#details {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-}
-
-#details ul {
-    padding: 0;
-}
-
-.map img {
+.phnom-penh-map img {
     max-height: 300px;
 }
 
-#addr {
-    text-align-last: auto;
-}
-
-.p4 {
-    width: 90%;
-}
-
-.noodles {
+.phnom-penh-noodles {
     float: right;
+    padding-left: 2em;
+}
+
+.phnom-penh-list a {
+    color: #333A3E;
+}
+
+#phnom-penh-photo-cred {
+    font-size: 10px;
 }

@@ -24,20 +24,20 @@ function Home() {
                         </p>
                     </div>
                     <div id="intro-button">
-                        <h2>discover the remarkable stories behind your favorite restaurants</h2>
+                        <h2 className="home-h2">discover the remarkable stories behind your favorite restaurants</h2>
                         <br />
-                        <a href="/Browse"><button className="button">Explore Now</button></a>
+                        <a href="/Browse"><button className="home-button">Explore Now</button></a>
                         </div>
                 </section>
                 <section className="featured-story">
-                    <div className="story-img">
+                    <div className="home-story-img">
                         {/*link: https://www.seattlemet.com/eat-and-drink/2020/10/the-new-phnom-penh-noodle-house-returns-to-chinatown-international-district*/}
                         <img src={foodSample} alt="dish from Phnom Penh Noodle House"/>
                         <p>photo cred: Seattle Met and Amber Fout</p>
                     </div>
-                    <div className="story">
-                        <h2>today's featured story:</h2>
-                        <h3>Phnom Penh Noodle House</h3>
+                    <div className="story-title">
+                        <h2 className="home-h2">today's featured story:</h2>
+                        <h3 className="home-h3">Phnom Penh Noodle House</h3>
                         <br />
                         <p>With a new location on S. Jackson Street, Phnom Penh Noodle House is back
                             serving the community as of Spring 2020!</p>
@@ -46,17 +46,17 @@ function Home() {
                             perseverance.
                         </p>
                         <br />
-                        <a href= "/Story/PhnomPenh"><button className="button">Read More</button></a>
+                        <a href= "/Story/PhnomPenh"><button className="home-button">Read More</button></a>
                     </div>
                 </section>
                 <section className="message mission-statement">
                         <div id="mission-button">
-                            <h2>our mission: to create meaningful experiences by helping you learn about
+                            <h2 className="home-h2">our mission: to create meaningful experiences by helping you learn about
                                 the best places around</h2>
                             <br />
-                            <a href="/About"><button className="button">Learn More</button></a>
+                            <a href="/About"><button className="home-button">Learn More</button></a>
                         </div>
-                        <p>Wander: A Guide to Exploring Seattle is a capstone project developed to
+                        <p><i>Wander: A Guide to Exploring Seattle</i> is a capstone project developed to
                             use the power of food to tell the story around Seattle’s International
                             District. As land prices rise and gentrification becomes more prominant
                             in areas around Seattle, locals are more likely to be priced out of the
@@ -65,9 +65,9 @@ function Home() {
                             about the history of the International District in an effort to preserve
                             and protect our community.</p>
                 </section>
-                <section className="page-footer">
+                {/*<section className="page-footer">
                         <span>WANDER a guide to exploring seattle</span>
-                </section>
+        </section>*/}
             </main>
         )
     }

@@ -24,18 +24,18 @@ export class PhnomPenh extends Component {
     render() {
         return (
             <div>
-                <div class="main">
-                    <div id="color-block">
+                <div class="phnom-penh-story-main">
+                    <div id="phnom-penh-story">
                         <h1>PHNOM PENH NOODLE HOUSE</h1>
-                        <h3>a family story from Cambodia to Seattle</h3>
+                        <h3>A family story from Cambodia to Seattle</h3>
 
                         <h4>by: Damita Gomez ・ 2-26-2021</h4>
-                        <hr id="phnom-penh" />
+                        <hr id="phnom-penh-hr" />
 
-                        <div class="flex-container-m">
-                            <div class="flex-child-m">
+                        <div class="phnom-penh-flex-container-m">
+                            <div class="phnom-penh-flex-child-m phnom-penh-parag">
                                 <p>
-                                    <span id="dropcap">P</span>
+                                    <span id="phnom-penh-dropcap">P</span>
                                     hnom Penh Noodle House is a Cambodian restaurant and beloved establishment
                                     in Seattle’s Chinatown-International District (CID). It was founded in 1987
                                     by Sam Ung and is currently operated by his three daughters: Dawn, Diane,
@@ -46,29 +46,29 @@ export class PhnomPenh extends Component {
                                 </p>
                             </div>
 
-                            <div class="flex-child-m quotes">
-                                <div class="q1-wrap">
-                                    <div class="q1-back"></div>
-                                    <div class="flex-container-q">
-                                        <div class="flex-child-q" id="q1-vert"></div>
-                                        <div class="flex-child-q">
-                                            <span id="q1-top">“</span>
+                            <div class="phnom-penh-flex-child-m phnom-penh-quotes">
+                                <div class="phnom-penh-q1-wrap">
+                                    <div class="phnom-penh-q1-back"></div>
+                                    <div class="phnom-penh-flex-container-q">
+                                        <div class="phnom-penh-flex-child-q" id="phnom-penh-q1-vert"></div>
+                                        <div class="phnom-penh-flex-child-q">
+                                            <span id="phnom-penh-q1-top">“</span>
                                         </div>
-                                        <div class="flex-child-q">
-                                            <p class="q-body">
+                                        <div class="phnom-penh-flex-child-q">
+                                            <p class="phnom-penh-q-body">
                                             They started with seven noodle dishes, all of which can still be
                                             enjoyed today
                                             </p>
                                         </div>
-                                        <div class="flex-child-q">
-                                            <span id="q1-bot">”</span>
+                                        <div class="phnom-penh-flex-child-q">
+                                            <span id="phnom-penh-q1-bot">”</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="flex-child-m img-txt-content" id="p2">
-                                <img id="old-rest" src={oldRest} alt="old Phnom Penh" />
+                            <div class="phnom-penh-flex-child-m phnom-penh-img-txt-content phnom-penh-parag" id="phnom-penh-p2">
+                                <img id="phnom-penh-old-rest" className="phnom-penh-img" src={oldRest} alt="old Phnom Penh" />
                                 <h2>Early History</h2>
                                 <p>
                                 The restaurant’s story arguably begins with a noodle cart in the 1940s with
@@ -77,8 +77,8 @@ export class PhnomPenh extends Component {
                                 restaurant where Sam Ung grew up working and learning about the restaurant
                                 business. However, the civil war in Cambodia during the 1970s would force Ung
                                 to relocate. The extraordinary circumstances that Sam overcame are detailed
-                                in his autobiography I Survived the Killing Fields: The True Life Story of a
-                                Cambodian Refugee. By 1980, he had moved with his budding family to Seattle
+                                in his autobiography <i>I Survived the Killing Fields: The True Life Story of a
+                                Cambodian Refugee</i>. By 1980, he had moved with his budding family to Seattle
                                 as a refugee, maintaining jobs as a cook to sustain his family. Diane explains
                                 that his time working at the Rainier Club allowed her father to cook a variety
                                 of cuisines and learn new skills. In 1987, he was able to open the Phnom Penh
@@ -87,28 +87,28 @@ export class PhnomPenh extends Component {
                             </div>
 
 
-                            <div class="flex-child-m quotes">
-                                <div class="q1-wrap">
-                                    <div class="q1-back"></div>
-                                    <div class="flex-container-q">
-                                        <div class="flex-child-q" id="q1-vert"></div>
-                                        <div class="flex-child-q">
-                                            <span id="q1-top">“</span>
+                            <div class="phnom-penh-flex-child-m phnom-penh-quotes">
+                                <div class="phnom-penh-q1-wrap">
+                                    <div class="phnom-penh-q1-back"></div>
+                                    <div class="phnom-penh-flex-container-q">
+                                        <div class="phnom-penh-flex-child-q" id="phnom-penh-q1-vert"></div>
+                                        <div class="phnom-penh-flex-child-q">
+                                            <span id="phnom-penh-q1-top">“</span>
                                         </div>
-                                        <div class="flex-child-q">
-                                            <p class="q-body">
+                                        <div class="phnom-penh-flex-child-q">
+                                            <p class="phnom-penh-q-body">
                                             The restaurant business paved the way for the family to survive
                                             </p>
                                         </div>
-                                        <div class="flex-child-q">
-                                            <span id="q1-bot">”</span>
+                                        <div class="phnom-penh-flex-child-q">
+                                            <span id="phnom-penh-q1-bot">”</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="flex-child-m">
-                                <img className="noodles" src={noodles} alt="noodle dish" />
+                            <div class="phnom-penh-flex-child-m phnom-penh-parag">
+                                <img className="phnom-penh-noodles phnom-penh-img" src={noodles} alt="noodle dish" />
                                 <h2>Menu Development</h2>
                                 <p>
                                 Life constantly threw challenges before Phnom Penh’s opening and since then.
@@ -128,12 +128,12 @@ export class PhnomPenh extends Component {
                             </div>
                             
                             
-                            <div class="flex-child-m">
-                                <div class="flex-container-t">
-                                    <div class="flex-child-t img-txt-content">
+                            <div class="phnom-penh-flex-child-m">
+                                <div class="phnom-penh-flex-container-t">
+                                    <div class="phnom-penh-flex-child-t phnom-penh-img-txt-content phnom-penh-parag">
                                         <div>
                                         <h2>Current Circumstances</h2>
-                                        <p className="p4">
+                                        <p className="phnnom-penh-p4">
                                         Like the CID, the restaurant has undergone changes throughout the years,
                                         but it is still the same at its core. Sam’s children including Diane
                                         were able to grow up in the CID with a home that went beyond their
@@ -146,7 +146,7 @@ export class PhnomPenh extends Component {
                                         community.</p>
                                         </div>
                                         <div>
-                                        <p className="p4">The CID would not feel the same without the presence of Phnom
+                                        <p className="phnom-penh-p4">The CID would not feel the same without the presence of Phnom
                                         Penh, and many factors have played a role to develop its legacy. The
                                         restaurant business paved the way for the family to survive in Cambodia
                                         and has allowed them to create a life in Seattle. Phnom Penh Noodle House
@@ -154,35 +154,37 @@ export class PhnomPenh extends Component {
                                         ensure that it stands for a long time to come.
                                         </p>
                                         </div>
-                                        <div class="flex-child-t">
-                                            <img src={sisters} />
+                                        <div class="phnom-penh-flex-child-t">
+                                            <img className="phnom-penh-img" src={sisters} alt="Owners of Phnom Penh" />
                                         </div>
+                                        <p id="phnom-penh-photo-cred">All photos were provided by the Phnom Penh official website</p>
                                     </div>
                                     
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
 
-                        <hr id="bottom" />
+                        <hr id="phnom-penh-bottom" />
 
-                        <div class="flex-child-m">
-                            <div id="details">
+                        <div class="phnom-penh-flex-child-m">
+                            <div id="phnom-penh-details">
                                 <div>
-                                    <div class="info">
+                                    <div class="phnom-penh-info">
                                         <h2>visit them now!</h2>
                                         <br />
-                                        <hr id="det-title" />
-                                        <ul>
-                                            <li id="addr">913 S. Jackson St. suite A, Seattle, WA 98104</li>
+                                        <hr id="phnom-penh-det-title" />
+                                        <ul className="phnom-penh-list">
+                                            <li id="phnom-penh-addr">913 S. Jackson St. suite A, Seattle, WA 98104</li>
                                             <li><a href="tel:206-682-6688">(206) 785-6936</a></li>
                                             <li><a href="http://www.phnompenhnoodlehouse.com/">http://www.phnompenhnoodlehouse.com/</a></li>
                                         </ul>
                                     </div>
                                     
                                 </div>
-                                <div id="map">
-                                    <img src={mapImage} alt="Google Maps image of Phnom Penh location"/>
+                                <div id="phnom-penh-map">
+                                    <img className="phnom-penh-img" src={mapImage} alt="Google Maps image of Phnom Penh location"/>
                                 </div>
                                 {/*<script
                                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIrDW655aBEFlkq8IlN1E07DWhIibDz2k&callback=initMap&libraries=&v=weekly"
