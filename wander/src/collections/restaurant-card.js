@@ -22,7 +22,7 @@ export default class RestaurantCard extends Component {
             }
             name = name.substring(0, spaceChar);
             return (
-                <img src = {this.props.image} id = {name}/>
+                <img src = {this.props.image} id = {name} className="cardIMG"/>
             )
         }
         return <></>

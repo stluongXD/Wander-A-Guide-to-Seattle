@@ -10,20 +10,20 @@ export default class Creator extends Component {
       <div>
         <div class={this.props.name}>
           <img src={this.props.img} alt={this.props.name} />
-          <h3 className="name">{this.props.name}</h3>
-          <p className="role-title">{this.props.role}</p>
-          <div className="icons">
+          <h3 className="aboutName">{this.props.name}</h3>
+          <p className="aboutRoleTitle">{this.props.role}</p>
+          <div className="aboutIcons">
 
-            <div className="email">
+            <div className="aboutEmail">
               <IconButton variant="link" href={"mailto:" + this.props.email}>
                 <MailOutlineIcon className="mail-icon" />
               </IconButton>
               <a href={"mailto:" + this.props.email}>{this.props.email}</a>
             </div>
 
-            <div className="github">
+            <div className="aboutGithub">
               <IconButton variant="link" href={this.props.github}>
-                <GitHubIcon className="github-icon" />
+                <GitHubIcon className="aboutGithubIcon" />
               </IconButton>
               <a target="_blank" href={"https://" + this.props.github}>{this.props.github}</a>
             </div>
