@@ -11,15 +11,15 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <div id="background-div">
-          <div id="bottom-left">
+        <div id="aboutBackgroundDiv">
+          <div id="aboutBottomLeft">
             <h1>
               About Us
             </h1>
 
           </div>
         </div>
-        <section id="about-text">
+        <section id="aboutText">
           <p>
             Wander: A Guide to Exploring Seattle is a capstone project developed to use the power of food
             to tell the story around Seattle’s International District. As land prices rise and gentrification
@@ -30,7 +30,7 @@ export default class About extends Component {
         </section>
         <section id="creators">
           <h2>Meet the Creators:</h2>
-          <div id="creators-details">
+          <div id="creatorsDetails">
             {this.loadCreators()}
           </div>
         </section>
@@ -42,7 +42,7 @@ export default class About extends Component {
   loadCreators() {
     let imgs = [Steven, Damita, Phung, Chloe]
     let result = CREATORS_DATA.map((creator, index) => {
-      return <Creator name={creator.name} email={creator.email} github={creator.github} img={imgs[index]} key={creator.name} />
+      return <Creator name={creator.name} email={creator.email} role={creator.role} github={creator.github} img={imgs[index]} key={creator.name} />
     })
     return result
   }

@@ -17,7 +17,7 @@ export default class Collections extends Component {
     render() {
         return (
             <div>
-                <h1>restaurants in the international district</h1>
+                <h1 className = "collections-header">restaurants in the international district</h1>
                 {this.loadCards()}
             </div>
         )

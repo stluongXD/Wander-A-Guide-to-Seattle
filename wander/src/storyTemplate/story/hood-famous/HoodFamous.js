@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./style.css";
-// import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+import "./hoodFamous-style.css";
+import { Map } from "./map.js";
 import miniube from './img/mini-ube.png';
 import cheraGeo from './img/chera-geo.jpg';
 
@@ -21,16 +21,16 @@ export default class HoodFamous extends Component {
     render() {
         return (
             <div>
-                <div className="header-img" />
-                <div className="main">
-                    <h1>What Made Hood Famous "Famous"?</h1>
-                    <h3>How a combination of Filipino and American food formed a tasty dessert and established into a business.</h3>
-                    <h4>by: Phung Phu ・ 3-3-2021</h4>
-                    <hr id="title" />
-                    <div className="flex-container-m">
+                <div id="hoodFamousHeaderImg" />
+                <div id="hoodFamousMain">
+                    <h1 id="hoodFamousH1">What Made Hood Famous "Famous"?</h1>
+                    <h3 id="hoodFamousH3">How a combination of Filipino and American food formed a tasty dessert and established into a business.</h3>
+                    <h4 id="hoodFamousH4">by: Phung Phu ・ 3-3-2021</h4>
+                    <hr id="hoodFamousTitle" />
+                    <div id="hoodFamousflex-container-m">
                         <div className="flex-child-m">
                             <p>
-                                <span id="dropcap">W</span>
+                                <span id="hoodFamousDropcap">W</span>
                                 hat started off as a passion project in 2013 turned
                                 into a full time business for husband and wife,
                                 Geo Quibuyen and Chera Amlag. With only a few Filipino
@@ -41,15 +41,15 @@ export default class HoodFamous extends Component {
                             </p>
                         </div>
                         <div className="flex-child-m">
-                            <div className="q1-wrap">
-                                <div className="q1-back" />
-                                <div className="flex-container-q">
-                                    <div className="flex-child-q" id="q1-vert" />
+                            <div id="hoodFamousq1-wrap">
+                                <div id="hoodFamousq1-back" />
+                                <div id="hoodFamousflex-container-q">
+                                    <div className="flex-child-q" id="hoodFamousq1-vert" />
                                     <div className="flex-child-q">
-                                        <span id="q1-top">“</span>
+                                        <span id="hoodFamousq1-top">“</span>
                                     </div>
                                     <div className="flex-child-q">
-                                        <p className="q-body">
+                                        <p className="hoodFamousq-body">
                                             I wanted to utilize food as a way to bring people together,
                                             and educate people about Filipino cuisine and culture.
                                         <br />
@@ -57,12 +57,12 @@ export default class HoodFamous extends Component {
                                         </p>
                                     </div>
                                     <div className="flex-child-q">
-                                        <span id="q1-bot">”</span>
+                                        <span id="hoodFamousq1-bot">”</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex-child-m" id="p2">
+                        <div className="flex-child-m" id="hoodFamousP2">
                             <p>
                                 The pop up contained a fixed menu and a 5 course meal.
                                 One dish, in particular, stood out: the purple ube
@@ -74,14 +74,14 @@ export default class HoodFamous extends Component {
                             </p>
                         </div>
                         <div className="flex-child-m">
-                            <div className="flex-container-p">
+                            <div id="hoodFamousflex-container-p">
                                 <div className="flex-child-p">
-                                    <img src={miniube} className="mid-img" />
+                                    <img src={miniube} id="hoodFamousmid-img" />
                                 </div>
-                                <div className="flex-child-p" id="q2-wrap">
-                                    <div className="q2-back" />
-                                    <div className="q2">
-                                        <p className="q-body" id="q2-body">
+                                <div className="flex-child-p" id="hoodFamousq2-wrap">
+                                    <div id="hoodFamousq2-back" />
+                                    <div id="hoodFamousq2">
+                                        <p className="hoodFamousq-body" id="hoodFamousq2-body">
                                             For Chera, the flagship ube cheesecake
                                             is the dish that best represents Hood Famous.
                     </p>
@@ -106,9 +106,9 @@ export default class HoodFamous extends Component {
                              District and Geo worked at the Wing Luke Museum in Chinatown.
                             </p>
                         </div>
-                        <div className="flex-child-m">
-                            <div className="rec">
-                                <h2>Current Circumstances</h2>
+                        <div id="flex-child-m">
+                            <div id="hoodFamousrec">
+                                <h2 className="hoodFamousH2">Current Circumstances</h2>
                                 <p>
                                     In light of COVID-19, Chera and Geo have redesigned their shop
                                     to support local artists and small business owners.
@@ -116,9 +116,9 @@ export default class HoodFamous extends Component {
                             </div>
                         </div>
                         <div className="flex-child-m">
-                            <div className="flex-container-t" id="last-pic-container">
+                            <div className="flex-container-t" id="hoodFamouslast-pic-container">
                                 <div className="flex-child-t">
-                                    <p id="p4">
+                                    <p id="hoodFamousp4">
                                         As a result of the in-person dining protocols due to COVID-19,
                                         Chera and Geo decided to redesign the dining room in the Hood Famous Cafe + Bar
                                         to a gift shop and marketplace where you can find local Asian American artists’
@@ -128,30 +128,28 @@ export default class HoodFamous extends Component {
                                     </p>
                                 </div>
                                 <div className="flex-child-t">
-                                    <img src={cheraGeo} id="last-pic" />
+                                    <img src={cheraGeo} id="hoodFamouslast-pic" />
                                 </div>
                             </div>
                         </div>
-                        <hr id="bottom" />
+                        <hr id="hoodFamousbottom" />
                         <div className="flex-child-m">
-                            <div id="details">
-                                <div>
-                                    <div className="info">
-                                        <h2>visit them now!</h2>
-                                        <hr id="det-title" />
-                                        <ul>
-                                            <li id="addr"><i className="fa fa-map-marker fa-3x icon" aria-hidden="true" />
+                            <div id="hoodFamousdetails">
+                                <div id="hoodFamousinfo">
+                                    <h2 className="hoodFamousH2">visit them now!</h2>
+                                    <hr id="hoodFamousdet-title" />
+                                    <ul id="hoodFamousUL">
+                                        <li id="hoodFamousaddr"><i className="fa fa-map-marker fa-3x icon" aria-hidden="true" />
                                             504 5th Avenue S, Suite 107A Seattle, WA 98104
                                             </li>
-                                            <li><i className="fa fa-phone fa-3x icon" aria-hidden="true" /> <a href="tel:206-485-7049">(206) 485-7049</a></li>
-                                            <li>
-                                                <i className="fa fa-window-maximize fa-3x icon" aria-hidden="true" />
-                                                <a href="https://www.hoodfamousbakeshop.com//">https://www.hoodfamousbakeshop.com//</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                        <li><i className="fa fa-phone fa-3x icon" aria-hidden="true" /> <a className="hoodFamousA" href="tel:206-485-7049">(206) 485-7049</a></li>
+                                        <li>
+                                            <i className="fa fa-window-maximize fa-3x icon" aria-hidden="true" />
+                                            <a className="hoodFamousA" href="https://www.hoodfamousbakeshop.com//">https://www.hoodfamousbakeshop.com//</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div id="map" />
+                                <div id="hoodFamousmap"><Map /></div>
                             </div>
 
                         </div>

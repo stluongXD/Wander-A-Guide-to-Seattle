@@ -1,3 +1,7 @@
+.collections-header {
+    margin-left: 1%;
+}
+
 .row {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -13,4 +17,9 @@
 
 #Young {
     width: 100%;
+}
+
+.cardIMG {
+    width: 100%;
+    height: 375px;
 }
