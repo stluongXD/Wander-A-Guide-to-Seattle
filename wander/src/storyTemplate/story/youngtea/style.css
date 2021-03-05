@@ -47,6 +47,7 @@ body, html {
 
 #title-yt {
     border: 2px solid #333A3E;
+    background-color: #333A3E;
     width: 50%;
     margin-top: -15px;
     margin-bottom: 30px;
@@ -208,6 +209,7 @@ p {
 
 #bottom-yt {
     border: 2px solid #333A3E;
+    background-color: #333A3E;
     width: 75%;
     margin-top: 50px;
 }
@@ -286,6 +288,7 @@ a:hover {
 
 #det-title-yt {
     border: 2px solid #333A3E;
+    background-color: #333A3E;
     width: 70%;
     margin-top: -5px;
     margin-bottom: 30px;
