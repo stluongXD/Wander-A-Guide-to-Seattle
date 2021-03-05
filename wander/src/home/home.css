@@ -42,13 +42,13 @@
     width: 100%;
   }
   
-  .mission-statement p, .mission-button, .intro p {
+  .mission-statement p, #mission-button, #intro-button, .intro p {
     margin-left: 3em;
     margin-right: 3em;
     max-width: 500px;
   }
   
-  .mission-button {
+  #mission-button {
     text-align: right;
   }
   
@@ -88,3 +88,25 @@
     flex-direction: column;
     align-items: center;
   }
+
+  h2 {
+    font-family: 'Sora';
+    font-weight: bold;
+  }
+
+.message p, .intro p {
+  font-weight: 550;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+#todays-story {
+  color: white;
+}
+
+#todays-story:hover {
+  color: #D8DCDE;
+  text-decoration: none;
+}

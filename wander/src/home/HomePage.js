@@ -1,8 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import "./home.css";
 import header from './imgs/home-page-header.png';
 import foodSample from './imgs/phnomPenhFood.png';
+import { HashLink } from 'react-router-hash-link';
 
 function Home() {
         return (
@@ -24,8 +24,11 @@ function Home() {
                             through food.
                         </p>
                     </div>
-                        {/*<button className="button"><Link to="/about">Learn More</Link></button>*/}
-                        <button className="button">Learn More</button>
+                    <div id="intro-button">
+                        <h2>discover the remarkable stories behind your favorite restaurants</h2>
+                        <br />
+                        <a href="/Browse"><button className="button">Explore Now</button></a>
+                        </div>
                 </section>
                 <section className="featured-story">
                     <div className="story-img">
@@ -34,22 +37,25 @@ function Home() {
                         <p>photo cred: Seattle Met and Amber Fout</p>
                     </div>
                     <div className="story">
-                        <h1>Today's Featured Story</h1>
-                        <h2>Phnom Penh Noodle House</h2>
+                        <h2>today's featured story:</h2>
+                        <h3>Phnom Penh Noodle House</h3>
+                        <br />
                         <p>With a new location on S. Jackson Street, Phnom Penh Noodle House is back
-                            serving the community as of Spring 2020! Click below to learn more about
+                            serving the community as of Spring 2020!</p>
+                        <p>Click below to learn more about
                             the restaurant's history and how their menu tells the story of family and
                             perseverance.
                         </p>
-                        {/*<button className="button"><Link to="/phnom_penh">Read More</Link></button>*/}
-                        <button className="button">Read More</button>
+                        <br />
+                        <button className="button"><HashLink id="todays-story" to="/Story/PhnomPenh#top">Read More</HashLink></button>
                     </div>
                 </section>
                 <section className="message mission-statement">
-                        <div className="mission-button">
+                        <div id="mission-button">
                             <h2>our mission: to create meaningful experiences by helping you learn about
                                 the best places around</h2>
-                            <a href = "/About"><button className="button">Learn More</button></a>
+                            <br />
+                            <a href="/About"><button className="button">Learn More</button></a>
                         </div>
                         <p>write a nice mission statement here! I'm a paragraph. Click here to add
                             your own text and edit me. It’s easy. Just click “Edit Text” or double
