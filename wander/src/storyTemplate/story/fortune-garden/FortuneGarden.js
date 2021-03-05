@@ -1,39 +1,30 @@
+// React
 import React, { Component } from "react";
-import "./style.css";
+// Stylesheet
 import "./fortune.css";
-// import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
-import map from './img/map.png';
+// Club Components
+import { Map } from "./map.js";
+import travelMap from './img/map.png';
 import Yongkang from './img/yongkang.jpg';
-
+// Assets
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from "react-bootstrap/Container";
 
 export default class FortuneGarden extends Component {
-
-    // initMap() {
-    //     const loc = {lat: 47.597399424712535, lng: -122.32592148264524 };
-    //     const map = new google.maps.Map(document.getElementById("map"), {
-    //         zoom: 18,
-    //         center: loc,
-    //     });
-    //     const marker = new google.maps.Marker({
-    //         position: loc,
-    //         map: map,
-    //     });
-    // }
 
     render() {
         return (
             <div>
-                <div className="header-img" />
-                <div className="main">
-                    <h1>Fortune Garden</h1>
-                    <h3>The Passing of Food Across Cultures</h3>
-                    <h4>by: Steven Luong ・ 3-4-2021</h4>
-                    <hr id="title" />
-                    <div className="flex-container-m">
+                <div className="fortune-header-img" />
+                <div className="fortune-main-content">
+                    <h1 className = "title">Fortune Garden</h1>
+                    <h3 className = "subtitle">The Passing of Food Across Cultures</h3>
+                    <h4 className = "author">by: Steven Luong ・ 3-4-2021</h4>
+                    <hr id="title-separator" />
+                    <div className="fortune-flex-container-m">
                         <div className="flex-child-m">
-                            <p>
+                            <p className = "story-text">
                                 <span id="dropcap">J</span>
                                 ust across the street from Seattle’s Hing Hay Park in the International District lies a quaint Chinese restaurant
                                 called Fortune Garden. Like so many other businesses in the International District, Fortune Garden is a restaurant
@@ -41,14 +32,12 @@ export default class FortuneGarden extends Component {
                                 student Yongkang Zhou and his family.
                             </p>
                         </div>
-                        <div className="flex-child-m">
-                            <div className="rec">
-                                <h2>History</h2>
-                            </div>
+                        <div className="fortune-rec">
+                            <h2 className ="fortune-section-header">History</h2>
                         </div>
                         <Row>
                             <Col>
-                            <p>
+                            <p className = "story-text">
                                     The Zhou family was originally from Taishan China, a rural area on the outskirts of Macao.
                                     Eventually the family immigrated to the United States in the pursuit of the American dream.
                                     After moving to the United States, Yongkang’s parents worked as a waitress and a chef for
@@ -66,19 +55,19 @@ export default class FortuneGarden extends Component {
                                     </p>
                             </Col>
                             <Col>
-                                <img src={map} id="map-image" />
+                                <img src={travelMap} id="map-image" />
                             </Col>
                         </Row>
                         <div className="flex-child-m">
-                            <div className="q1-wrap">
-                                <div className="q1-back" />
-                                <div className="flex-container-q">
-                                    <div className="flex-child-q" id="q1-vert" />
+                            <div className="fortune-q1-wrap">
+                                <div className="fortune-q1-back" />
+                                <div className="fortune-flex-container-q">
+                                    <div className="flex-child-q" id="fortune-q1-vert" />
                                     <div className="flex-child-q">
-                                        <span id="q1-top">“</span>
+                                        <span id="fortune-q1-top">“</span>
                                     </div>
                                     <div className="flex-child-q">
-                                        <p className="q-body">
+                                        <p className="fortune-q-body">
                                             Food has the ability to take you on a journey across the world.
                                             It is this intermingling of heritage and food that I really enjoy!
                                         <br />
@@ -86,20 +75,17 @@ export default class FortuneGarden extends Component {
                                         </p>
                                     </div>
                                     <div className="flex-child-q">
-                                        <span id="q1-bot">”</span>
+                                        <span id="fortune-q1-bot">”</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex-child-m" id="p2">
-                            <p>
+                        <p className = "story-text">
                             Food plays a pivotal role in Chinese culture due to what certain foods represent
                             to the Chinese people. For example, many Chinese families would eat dumplings on
                             Lunar New Year which represents wealth, or eat long noodles on birthdays to represent a long life.
-                            </p>
-                        </div>
-                        <div className="flex-child-m">
-                            <p>
+                        </p>
+                        <p className = "story-text">
                             When asked what dish best represents his family, Yongkang pondered deeply and answered
                             “the five taste duck recipe best represents the journey my family took to get to where
                             we are now.” The five taste duck recipe was introduced to his family when they lived in
@@ -111,16 +97,13 @@ export default class FortuneGarden extends Component {
                             culture and heritage as the recipe moves between family members, then across the ocean to the
                             United States, and finally to all the customers who want to experience a piece of that culture
                             in their restaurant.
-                            </p>
-                        </div>
-                        <div className="flex-child-m">
-                            <div className="rec">
-                                <h2>What's Next?</h2>
-                            </div>
+                        </p>
+                        <div className="fortune-rec">
+                            <h2>What's Next?</h2>
                         </div>
                         <Row>
                             <Col>
-                            <p>
+                            <p className = "story-text">
                                     Yongkang is currently set to graduate in the spring of 2021 with a bachelors in
                                     Public Health. With the possibility of the next generation taking over the business,
                                     we may see dishes that may reflect his upbringing as a Chinese American, or a fusion
@@ -133,29 +116,36 @@ export default class FortuneGarden extends Component {
                             <img src={Yongkang} id="YK-profile"/>
                             </Col>
                         </Row>
-                        <hr id="bottom" />
-                        <div className="flex-child-m">
-                            <div id="details">
-                                <div>
-                                    <div className="info">
+                        <hr id="next-contact-separator" />
+                            <div id="contact-info">
+                                    <div className="contact-content">
                                         <h2>visit them now!</h2>
-                                        <hr id="det-title" />
-                                        <ul>
-                                            <li id="addr"><i className="fa fa-map-marker fa-3x icon" aria-hidden="true" />
-                                            424 Maynard Ave S Seattle, WA 98104
-                                            </li>
-                                            <li><i className="fa fa-phone fa-3x icon" aria-hidden="true"/><a href="tel:206-485-7049">(206) 521-8933</a></li>
-                                            <li>
-                                                <i className="fa fa-window-maximize fa-3x icon" aria-hidden="true" />
-                                                <a href="https://fortunegardenwa.com/">https://fortunegardenwa.com/</a>
-                                            </li>
-                                        </ul>
+                                        <hr id="contact-separator" />
+                                        <Container fluid = {true}>
+                                            <Row>
+                                                <Col>
+                                                    <Container>
+                                                        <Row>
+                                                            <Col xs={3}><i className="fa fa-map-marker fa-3x icon" aria-hidden="true" /></Col>
+                                                            <Col>424 Maynard Ave S Seattle, WA 98104</Col>
+                                                        </Row>
+                                                        <Row>
+                                                            <Col xs={3}><i className="fa fa-phone fa-3x icon" aria-hidden="true"/></Col>
+                                                            <Col><a href="tel:206-485-7049">(206) 521-8933</a></Col>
+                                                        </Row>
+                                                        <Row>
+                                                            <Col xs={3}><i className="fa fa-window-maximize fa-3x icon" aria-hidden="true" /></Col>
+                                                            <Col><a href="https://fortunegardenwa.com/">https://fortunegardenwa.com/</a></Col>
+                                                        </Row>
+                                                    </Container>
+                                                </Col>
+                                                <Col>
+                                                <div id="map"><Map/></div>
+                                                </Col>
+                                            </Row>
+                                        </Container>
                                     </div>
-                                </div>
-                                <div id="map"/>
                             </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
