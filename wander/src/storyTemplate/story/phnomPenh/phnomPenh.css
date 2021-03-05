@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     width: 75%;
-    top: 10%;
+    top: 60%;
     left: 12.5%;
     padding: 0px 120px;
     box-sizing: border-box;
@@ -233,7 +233,6 @@
 
 ul.phnom-penh-list {
     list-style: none;
-    padding: 0;
 }
 
 .phnom-penh-list li {
@@ -305,4 +304,15 @@ ul.phnom-penh-list {
 
 #phnom-penh-photo-cred {
     font-size: 10px;
+}
+
+#phnom-penh-header-bg {
+    background-image: url('img/phnomHeader.png');
+    height: 490px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
 }

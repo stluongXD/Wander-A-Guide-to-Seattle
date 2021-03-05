@@ -24,6 +24,7 @@ export class PhnomPenh extends Component {
     render() {
         return (
             <div>
+                <div id="phnom-penh-header-bg" />
                 <div class="phnom-penh-story-main">
                     <div id="phnom-penh-story">
                         <h1>PHNOM PENH NOODLE HOUSE</h1>
